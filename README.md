@@ -9,6 +9,10 @@ Alternatively, you can use docker file `zongyueq/llmss:0.0.2`, then with command
 
 Your GPU needs to support `nvidia-smi` to measure GPU energy consumption.
 
+# Data
+
+The SQUAD dataset will be downloaded automatically. To use Spider dataset, download the data from `https://yale-lily.github.io/spider` and uncompress it under the `DSBD` directory. **Make sure the file path in `execution\_accuracy` of `sampling/utils.py` is correct.**
+
 # Example Run
 
 `python evaluation.py --approx_model_name meta-llama/Llama-3.2-1B --target_model_name meta-llama/Llama-3.1-8B --max_tokens 200 --max_seconds 10000 --log_file /llmss/DSBD/logs/tmp.log --dataset squad --top_k=10 --top_p=0.9 --num_inputs=10`

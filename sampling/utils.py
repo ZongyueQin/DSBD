@@ -63,7 +63,7 @@ def match(result1, result2):
     return str_result1 == str_result2
 
 def execution_accuracy(db, pred, sql):
-    conn = sqlite3.connect(f"/home/qinzongyue/LLMSpeculativeSampling/spider/spider/database/{db}/{db}.sqlite")
+    conn = sqlite3.connect(f"./spider/database/{db}/{db}.sqlite")
     conn.text_factory = bytes
     cur = conn.cursor()
     try:
