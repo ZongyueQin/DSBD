@@ -1,0 +1,7 @@
+transformers==4.35.2
+torch==2.1.1
+pandas==2.0.3
+datasets==2.15.0
+tqdm==4.66.1
+numpy==1.24.4
+evaluate==0.4.1
