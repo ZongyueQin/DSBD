@@ -1,5 +1,5 @@
 # DSBD
-Code for AAAI'25 "Dynamic-Width Speculative Beam Decoding for Efficient LLM Inference"
+Code for AAAI'25 "[Dynamic-Width Speculative Beam Decoding for Efficient LLM Inference](https://arxiv.org/abs/2409.16560)"
 
 # Environment
 
